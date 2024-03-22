@@ -8,7 +8,7 @@ const Drive = () => {
 
   const calculateCarbonProduced = async () => {
     try {
-      const response = await fetch('http://localhost:3000/router/drive/calculate', {
+      const response = await fetch('http://localhost:3000/drive/calculate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
