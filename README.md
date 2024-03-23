@@ -6,5 +6,5 @@ npm i for node modules
 
 KateOblomova is a contributor for testing and improving routes.
 
-This file runs on the local host
+This file runs on the local host,
 use npm run dev to run the application
