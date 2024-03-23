@@ -1,9 +1,9 @@
 ## Table of Contents:
-About The Project
-Built With
-Getting Started
-Contact
-Acknowledgments
+About The Project  
+Built With  
+Getting Started  
+Contact  
+Acknowledgments  
 
 ## About The Project:
 This file is the frontend file for the Carbon Footprint Calculator Widget, take home task.
