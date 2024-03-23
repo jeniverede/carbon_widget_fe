@@ -26,18 +26,22 @@ const Subscribe = () => {
   };
 
   return (
-    <div className='subscribe'>
-      <h2>Enter Your Email</h2>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          placeholder="Enter your email"
-          required
-        />
-        <button type="submit">Submit</button>
-      </form>
+    <div className='card'>
+      <h3>Subscribe to our newsletter for more facts and tips!</h3>
+      <div className='input-display'>
+        <form 
+          onSubmit={handleSubmit}>
+          <input
+            className='input-form'
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="Enter your email"
+            required
+          />
+          <button className="submit-btn">Submit</button>
+        </form>
+      </div>
     </div>
   );
 };

@@ -1,9 +1,26 @@
-.input-form {
+.card {
+  background-color: var(--clr-accentgreen);
+  color: var(--clr-light);
+  text-align: center;
+  margin-top: 1.25rem;
+  padding: 1.25rem;
+  border-radius: 0.625rem;
+}
+
+.input-display {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+.input {
   background-color: var(--clr-light);
-  width: 16rem;
-  margin: auto;
-  margin-top: 1rem;
+  margin: 1rem auto;
+  margin-bottom: 1rem;
   padding: 0.75rem;
+  height: 3rem;
+  width: 4.125rem;
   border: none;
   border-radius: 0.625rem;
   font-size: var(--fs-body);
@@ -12,11 +29,10 @@
   outline: none;
 }
 
-.submit-btn {
+.calculate-btn {
   background-color: var(--clr-medgreen);
   color: var(--clr-light);
-  margin-top: 1rem;
-  padding: 0.75rem;
+  height: 3rem;
   border: none;
   border-radius: 0.625rem;
   font-size: var(--fs-h3);
@@ -24,8 +40,14 @@
   font-weight: 600;
 }
 
-.submit-btn:hover {
+.calculate-btn:hover {
   cursor: pointer;
   background-color: var(--clr-light);
   color: var(--clr-medgreen);
 }
+
+.result {
+  color: var(--clr-light)
+}
+
+

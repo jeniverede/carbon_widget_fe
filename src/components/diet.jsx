@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./diet.css";
+import "./card.css";
 
 const Diet = () => {
   // input for daysPerWeek can be a number or a string
@@ -28,17 +28,21 @@ const Diet = () => {
   };
 
   return (
-    <div className='diet'>
-      <p>Enter the number of days you eat meat per week. (1-7):</p>
-      <input
-        type="number"
-        min="1"
-        max="7"
-        value={daysPerWeek}
-        onChange={(e) => setDaysPerWeek(parseInt(e.target.value))}
-      />
-      <button onClick={calculateCarbonProduced}>Calculate</button>
-      <div>{result}</div>
+    <div className='card'>
+      <h2>How many days do you eat meat per week? (1-7):</h2>
+      <div className='input-display'>
+        <input
+          className='input'
+          type="number"
+          min="1"
+          max="7"
+          value={daysPerWeek}
+          onChange={(e) => setDaysPerWeek(parseInt(e.target.value))}
+        />
+        <button className="calculate-btn"
+          onClick={calculateCarbonProduced}>Calculate</button>
+      </div>
+      <div className='result'>{result}</div>
     </div>
   );
 };
