@@ -3,3 +3,5 @@ This file is the frontend file for the Carbon Footprint Calculator Widget, take 
 The following packages are used:
 create vite@latest,
 npm i for node modules
+
+KateOblomova is a contributor for testing and improving routes.
