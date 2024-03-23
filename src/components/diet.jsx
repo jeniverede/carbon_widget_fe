@@ -28,7 +28,7 @@ const Diet = () => {
   };
 
   return (
-    <div>
+    <div className='diet'>
       <p>Enter the number of days you eat meat per week. (1-7):</p>
       <input
         type="number"

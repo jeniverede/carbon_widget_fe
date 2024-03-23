@@ -28,7 +28,7 @@ const Drive = () => {
   };
 
   return (
-    <div>
+    <div className='drive'>
       <p>Enter the number of days you drive per week (1-7):</p>
       <input
         type="number"
