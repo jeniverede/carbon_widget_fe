@@ -1,3 +1,4 @@
+/* styling for email input form in subscribe component */
 .input-form {
   background-color: var(--clr-light);
   width: 16rem;
@@ -12,6 +13,7 @@
   outline: none;
 }
 
+/* styling for submit button */
 .submit-btn {
   background-color: var(--clr-accentblue);
   color: var(--clr-light);
@@ -24,6 +26,7 @@
   font-weight: 600;
 }
 
+/* styling for submit button on hover */
 .submit-btn:hover {
   cursor: pointer;
   background-color: var(--clr-light);

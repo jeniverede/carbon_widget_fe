@@ -11,6 +11,7 @@
   --clr-accentblue: #0A84FF;
 }
 
+/* styling for App.jsx */
 .app {
   background-color: var(--clr-dark);
   width: 23.9rem;

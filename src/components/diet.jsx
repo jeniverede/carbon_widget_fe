@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import "../styles/components/card.css";
 
 const Diet = () => {
-  // input for daysPerWeek can be a number or a string
   const [daysPerWeek, setDaysPerWeek] = useState();
   const [result, setResult] = useState();
 

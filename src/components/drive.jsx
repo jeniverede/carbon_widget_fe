@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import "../styles/components/card.css";
 
 const Drive = () => {
-  // input for daysOfDriving can be a number or a string
   const [daysOfDriving, setDaysOfDriving] = useState();
   const [result, setResult] = useState();
 

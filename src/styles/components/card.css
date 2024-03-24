@@ -1,3 +1,4 @@
+/* styling for drive & diet component */
 .card {
   background-color: var(--clr-accentgrey);
   color: var(--clr-light);
@@ -7,6 +8,7 @@
   border-radius: 0.625rem;
 }
 
+/* layout for drive & diet component */
 .input-display {
   display: flex;
   flex-direction: column;
@@ -14,6 +16,7 @@
   padding: 0;
 }
 
+/* styling for input element */
 .input {
   background-color: var(--clr-light);
   margin: 1rem auto;
@@ -29,6 +32,7 @@
   outline: none;
 }
 
+/* styling for calculate button */
 .calculate-btn {
   background-color: var(--clr-accentgreen);
   color: var(--clr-dark);
@@ -40,12 +44,14 @@
   font-weight: 600;
 }
 
+/* styling for calculate button on hover */
 .calculate-btn:hover {
   cursor: pointer;
   background-color: var(--clr-light);
   color: var(--clr-accentgreen);
 }
 
+/* styling for result in drive & diet component */
 .result {
   color: var(--clr-light)
 }
