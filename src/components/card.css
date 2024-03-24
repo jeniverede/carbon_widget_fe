@@ -1,5 +1,5 @@
 .card {
-  background-color: var(--clr-accentgreen);
+  background-color: var(--clr-accentgrey);
   color: var(--clr-light);
   text-align: center;
   margin-top: 1.25rem;
@@ -30,8 +30,8 @@
 }
 
 .calculate-btn {
-  background-color: var(--clr-medgreen);
-  color: var(--clr-light);
+  background-color: var(--clr-accentgreen);
+  color: var(--clr-dark);
   height: 3rem;
   border: none;
   border-radius: 0.625rem;
@@ -43,7 +43,7 @@
 .calculate-btn:hover {
   cursor: pointer;
   background-color: var(--clr-light);
-  color: var(--clr-medgreen);
+  color: var(--clr-accentgreen);
 }
 
 .result {

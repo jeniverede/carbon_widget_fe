@@ -13,7 +13,7 @@
 }
 
 .submit-btn {
-  background-color: var(--clr-medgreen);
+  background-color: var(--clr-accentblue);
   color: var(--clr-light);
   margin-top: 1rem;
   padding: 0.75rem;
@@ -27,5 +27,5 @@
 .submit-btn:hover {
   cursor: pointer;
   background-color: var(--clr-light);
-  color: var(--clr-medgreen);
+  color: var(--clr-accentblue);
 }

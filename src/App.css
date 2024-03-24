@@ -6,9 +6,9 @@
   /* colors */
   --clr-light: #f1f1f1;
   --clr-dark: #242424;
-  --clr-accentgreen: #87ac96;
-  --clr-medgreen: #003e29;
-  --clr-accentgrey: #dde4e2;
+  --clr-accentgreen: #30D158;
+  --clr-accentgrey: #3D3D3D;
+  --clr-accentblue: #0A84FF;
 
   /* smaller text for mobile */
   /* font-size 32px, 24px, 20px, 16px */
@@ -62,13 +62,13 @@ h2 {
   font-size: var(--fs-h2);
   font-family: NunitoSans, sans-serif;
   font-weight: 600;
-  color: var(--clr-dark);
+  color: var(--clr-light);
 }
 h3 {
   font-size: var(--fs-h3);
   font-family: NunitoSans, sans-serif;
   font-weight: 600;
-  color: var(--clr-dark);
+  color: var(--clr-light);
 }
 body {
   font-size: var(--fs-body);
