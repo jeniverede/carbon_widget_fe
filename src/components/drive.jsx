@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./card.css";
+import "../styles/components/card.css";
 
 const Drive = () => {
   // input for daysOfDriving can be a number or a string
